@@ -1,0 +1,224 @@
+.root {
+    padding: 0;
+    margin: 0;
+}
+
+.con-navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    background-color: black;
+}
+
+.con-main {
+    display: block;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.con-navBar-div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+li {
+    display: inline;
+    float: left;
+    text-align: center;
+
+}
+
+a {
+    display: block;
+    padding: 0px 16px;
+    height: 70px;
+    width: 250;
+    text-decoration: none;
+    align-content: center;
+    color: white;
+}
+
+.con-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li :hover {
+    background-color: rgb(36, 34, 34);
+    color: white;
+}
+
+.con-backimage {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+    
+}
+
+.con-navBar .con-logo-container {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    /* border: 2px solid white; */
+}
+
+.con-navBar .con-logo-container .con-logo {
+    width: 70px;
+    height: 100%;
+    background-image: url(../assets/Logo.jpg);
+    background-size: cover;
+}
+
+.con-navBar .con-logo-container .con-name {
+    font-size: xx-large;
+    text-align: center;
+    line-height: 66px;
+    width: 150PX;
+    color: white;
+}
+
+.navBar .con-about_us {
+    /* border: 2px solid red; */
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+.navBar .con-about_us .con-menuicon {
+    width: 50px;
+    height: 80%;
+    background-size: 50px;
+    background-image: url(../assets/Menuicon.jpg);
+    background-repeat: no-repeat;
+}
+
+.con-content .con-content-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    /* border: 2px dashed white; */
+}
+
+.con-content .con-content-data .con-objective {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px dashed pink; */
+    width: 56%;
+    height: 90%;
+}
+
+.con-content .con-content-data .con-myPic {
+    /* border: 2px dashed rgb(104, 91, 93); */
+    width: 40%;
+    height: 90%;
+}
+
+.con-myPic .con-animation {
+    width: 100%;
+    height: 100%;
+    animation-name: sabari;
+    animation-duration: 1s;
+    background-image: url('../assets/banner_shape.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sabari {
+    from {
+        margin-top: 0px;
+    }
+
+    to {
+        margin-top: 2px;
+    }
+}
+
+.con-objective .con-name-designation {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.con-objective .con-name-designation .con-name-designation-name {
+    line-height: 50px;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    /* border: 1px dashed rgb(118, 68, 68); */
+}
+
+.con-objective .con-about-myself {
+    /* border: 1px dashed red; */
+    width: 100%;
+    height: 30%;
+}
+
+
+.con-objective .con-cv-download {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px dashed red; */
+    width: 100%;
+    height: 10%;
+}
+
+.con-cv-download-button {
+    /* border: 2px dashed greenyellow; */
+    width: 30%;
+    height: 85%;
+}
+
+.con-cv-download-vdobutton {
+    /* border: 2px dashed greenyellow; */
+    width: 60%;
+    height: 85%;
+}
+
+p {
+    height: 0%;
+}
+
+.btn-cv-download {
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.con-content .education {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 90vh;
+    background: black;
+    border: 2px dashed white;
+}
+
+.con-content .education .edu-tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 90%;
+    border: 2px dashed white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; */
+}
+
+.con-content .education .edu-quote{
+    height: 100px;
+    width: 100px;
+    border: 2px dashed white;
+}
